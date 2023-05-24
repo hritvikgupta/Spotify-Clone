@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    flex-direction: column;
+    background-image: url('Images/bg.jpg');
+}
+
+.bottom{
+    position: sticky;
+    height:130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+.songItem{
+height: 50px;
+display: flex;
+background-color: white;
+width: 30%;
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+}
+
+.songItem img{
+    margin: 0 10px;
+    width: 50px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+    padding: 10px;
+}
+
+.timestamp i{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: "Varela Round", sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
