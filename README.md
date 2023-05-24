@@ -12,8 +12,8 @@ Progress bar indicating song progress.
 
 # Setup and Usage
 * Clone the repository to your local machine.
-** Open the index.html file in your web browser.
-*** Use the control buttons to play/pause and select the next or previous songs.
+* Open the index.html file in your web browser.
+* Use the control buttons to play/pause and select the next or previous songs.
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
